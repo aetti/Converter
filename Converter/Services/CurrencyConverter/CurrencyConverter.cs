@@ -1,5 +1,8 @@
 ﻿using Converter.Models;
 
+
+// This code is not used as it contains some logic from stackoverflow
+
 namespace Converter.Services.CurrencyConverter
 {
     public class CurrencyConverter: ICurrencyConverter
