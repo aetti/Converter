@@ -1,7 +1,8 @@
 ﻿using Converter.Models;
 
 
-// This code is not used as it contains some logic from stackoverflow
+// This code is not used as it contains some logic from stackoverflow, but after looking on it clously
+// you can notice that the logic has been modified.
 
 namespace Converter.Services.CurrencyConverter
 {

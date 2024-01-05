@@ -1,5 +1,7 @@
 ﻿using Converter.Models;
 
+//This logic is used as it is not present in stackoverflow
+
 namespace Converter.Services.CurrencyConverter
 {
     public class CurrencyConverter2: ICurrencyConverter
