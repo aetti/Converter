@@ -1,0 +1,6 @@
+.result {
+  height: 130px;
+  overflow-y: auto;
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0,0,0,0.15); /* Subtle shadow */
+}

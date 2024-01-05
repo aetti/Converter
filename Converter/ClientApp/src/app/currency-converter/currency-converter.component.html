@@ -1,0 +1,19 @@
+<div class="card bg-light" style="width: 24rem;">
+  <div class="card-body">
+    <p>currency-converter works!</p>
+    <div>
+      <input type="text" [(ngModel)]="amount" placeholder="Enter amount" class="form-control mb-3 mr-3">
+      <button (click)="convertCurrency()" class="btn btn-primary mb-3 mr-3">Convert</button>
+      <button (click)="clearInput()" class="btn btn-primary mb-3" style="margin-left: 2px;">Clear</button> <!-- Reduce margin-left here -->
+      <p class="result text-wrap bg-white p-3" style="overflow-wrap: break-word;">{{result}}</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
