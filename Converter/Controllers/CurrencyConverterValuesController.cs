@@ -90,5 +90,14 @@ namespace Converter.Controllers
             return Ok(new { amount = id, currencyText = currencyText });
 
         }
+
+
+        [HttpGet]
+        public IActionResult GetCurrencyText()
+        {
+            return Ok(new { amount = "", currencyText = $"The currency cannot be null or empty." });
+        }
+
+
     }
 }
